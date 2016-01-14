@@ -1,10 +1,80 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/gilmore.css" rel="stylesheet" media="all" type="css/text">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/gilmore.js"></script>
+    <title>Gilmore Quiz</title>
   </head>
   <body>
+    <div class="container">
+      <form id="happyquiz">
+        <H1>Which Happy Gilmore Character Are You?</H1>
+        <div class="form-group">
+          <label for="ambition">
+            On a scale of 1 to 5, 5 being the highest, how ambitious are you?
+          </label>
+          <select id="ambition">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="aggressive">
+            On scale of 1 to 5, 5 being the highest, what is your aggression level?
+          </label>
+          <select id="aggressive">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-default">
+          Submit
+        </button>
+      </form>
+
+
+
+    </div>
+    <H1 id="quizresult"></H1>
+    <div class="Cast">
+      <ul>
+        <li class="hideme undecorate" id="Happy">
+          <H2>Happy Gilmore</H2>
+          Adam Sandler as Happy Gilmore, a young man who wants to be a professional ice hockey player.
+        </li>
+        <li class="hideme undecorate" id="Shooter">
+          <H2>Shooter McGavin</H2>
+          Christopher McDonald as Shooter McGavin, an arrogant golfer who is the top player on the "Pro Golf Tour" (fictionalized golf tour based on the PGA Tour).
+        </li>
+        <li class="hideme undecorate" id="Virginia">
+          <H2>Virgina Venit</H2>
+          Julie Bowen as Virginia Venit, a public relations director for the Pro Golf Tour.
+        </li>
+        <li class="hideme undecorate" id="Grandma">
+          <H2>Grandma Gilmore</H2>
+          Frances Bay as Grandma Gilmore.
+        </li>
+        <li class="hideme undecorate" id="Bob">
+          <H2>Bob Barker</H2>
+          Bob Barker as himself
+        </li>
+        <li class="hideme undecorate" id="Otto">
+          <H2>Otto</H2>
+          Congrats! You're Otto, Happy's caddy.
+        </li>
+      </ul>
+    </div>
 
   </body>
 </html>

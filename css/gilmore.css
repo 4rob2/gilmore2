@@ -1,3 +1,7 @@
 .hideme {
   display: none;
 }
+
+.undecorate {
+  list-style-type: none;
+}
