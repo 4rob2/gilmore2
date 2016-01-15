@@ -5,3 +5,7 @@
 .undecorate {
   list-style-type: none;
 }
+
+.quizimage {
+  float: left;
+}
